@@ -19,9 +19,9 @@
         "name": "uday",
         "email": "xyz@gmail.com"
     },
-
     {
         "name": "Uday",
-        "message": "Updated API data"
- }
+        "course": "DevOps",
+        "message": "Updated JSON API data"
+}
 ]
