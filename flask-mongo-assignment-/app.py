@@ -14,6 +14,19 @@ client = MongoClient(mongo_uri)
 db = client["studentDB"]
 collection = db["formdata"]
 
+@app.route('/submittodoitem', methods=['POST'])
+def submit_item():
+
+    itemName = request.form['itemName']
+    itemDescription = request.form['itemDescription']
+
+    collection.insert_one({
+        "itemName": itemName,
+        "itemDescription": itemDescription
+    })
+
+    return "Item saved"
+
 # API Route
 @app.route('/api')
 def get_data():
