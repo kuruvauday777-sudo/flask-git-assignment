@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Virat Kohli",
+        "email": "virat.kohli@example.com"
+    },
+    {
+        "name": "Lionel Messi",
+        "email": "lionel.messi@example.com"
+    },
+    {
+        "name": "PV Sindhu",
+        "email": "pv.sindhu@example.com"
+    },
+    {
+        "name": "krishn",
+        "email": "krishn@gmail.com"
+    },
+    {
+        "name": "uday",
+        "email": "xyz@gmail.com"
+    },
+
+    {
+        "name": "Uday",
+        "message": "Updated API data"
+ }
+]
